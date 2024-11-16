@@ -1,0 +1,50 @@
+.navbar {
+    background-color: rgb(112, 115, 122);
+}
+
+.navbar-nav:hover {
+    color: white !important;
+}
+
+.navbar-title {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: large;
+}
+
+.navbar-title:hover {
+    color: white !important;
+}
+
+a{
+    color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+    color: white;
+  }
+
+
+.col-lg-4 {
+    background-color: rgb(245, 245, 248);
+}
+
+.list-group-item{
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.navbar-nav{
+    gap: 10px;
+    padding-top: 10px;
+}
+
+
+#optionsList {
+    display: none; /* Ocultar por defecto */
+}
+
+#optionsList.show {
+    display: block !important; /* Mostrar cuando esté activo */
+}
+
